@@ -41,7 +41,7 @@ Uma maneira de garantir que o erro de uma aproximação seja menor que `epsilon`
 
 O algoritmo acima faz um refinamento iterativo do intervalo `[a,b]`, porém pode ser melhorado. A maneira de melhorá-lo é só fazer a divisão dos intervalos "ruins". Por exemplo, a função abaixo:
 
-<img src="funcao-ruim.png" width=300>
+<img src="funcao-ruim.png" width=100%>
 
 Não precisamos de tantos pontos para estimar a integral da função no intervalo `[1,3]`.
 Porém, para calcular a integral no intervalo `[-1,1]`, provavelmente precisamos de muitos pontos.
@@ -75,7 +75,7 @@ Para alguns intervalos, o resultado fica bom mais rápido, por exemplo:
 Então apenas uma iteração já resolvemos. Enquanto que para outros, precisamos fazer diversas separações.
 A imagem abaixo mostra as várias separações na ordem que foram feitas na minha implementação:
 
-<img src="resultado-funcao-ruim.png" width=400>
+<img src="resultado-funcao-ruim.png" width=100%>
 
 Os segmentos verde indicam quando o erro ficou bom.
 Os segmentos vermelhos indicam quando precisou dividir mais.
