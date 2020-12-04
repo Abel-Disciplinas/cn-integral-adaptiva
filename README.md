@@ -82,6 +82,4 @@ Os segmentos vermelhos indicam quando precisou dividir mais.
 
 ## Exercício
 
-Implemente o método de Simpson adaptivo. Ele pode ser implementado de diversas maneiras (recursão ou for), mas é importante que ele esteja correto. Se você calcular de uma maneira errada, fazendo mais que o necessário, o código irá falhar.
-
-Além da condição `dif < 15eps` para aceitar o passo, também utilize `b - a < minh` para o caso de `b - a` ficar muito pequeno.
+Implemente o método de Simpson adaptivo. Ele pode ser implementado de diversas maneiras (recursão ou for), mas é importante que o número de avaliações de função esteja correto. Se você calcular de uma maneira errada, fazendo mais que o necessário, o código irá falhar.
