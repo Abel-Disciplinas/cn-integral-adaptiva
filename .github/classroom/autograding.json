@@ -3,7 +3,7 @@
     {
       "name": "Testes",
       "setup": "",
-      "run": "julia --project testes.jl",
+      "run": "julia --project -e 'using Pkg; pkg\"instantiate\"'; julia --project testes.jl",
       "input": "",
       "output": "",
       "comparison": "included",
